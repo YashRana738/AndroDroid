@@ -1,6 +1,6 @@
 # MountDroid
 
-**MountDroid** is a shell script for rooted Android devices that allows you to **mount ISO files** and expose them over USB as a virtual disk — enabling you to **boot your PC directly from an ISO stored on your phone**. No USB pendrive required!
+**MountDroid** is a shell script for rooted Android devices that allows you to **mount ISO files** on newer android devices and expose them over USB as a virtual disk — enabling you to **boot your PC directly from an ISO stored on your phone**. No USB pendrive required!
 
 It uses the Linux USB Gadget framework to emulate a USB Mass Storage device, acting like a physical bootable drive.
 
@@ -21,6 +21,7 @@ It uses the Linux USB Gadget framework to emulate a USB Mass Storage device, act
 
 - 🔗 Mount ISO files from internal storage or SD card
 - 🖥 Bootable on Windows, Linux, or any ISO-supported OS
+- 🔗 Work Sideways with Normal MTP
 - 🔒 Supports **read-only** and **read-write** mounting
 - ♻️ Automatically reverts on reboot
 - 🚫 No need for USB OTG or pendrives
